@@ -1,0 +1,103 @@
+db.Employee.insertMany([
+  {
+    emono: 201,
+    ename: "Deepali Vaidya",
+    sal: 40000,
+    dept: { deptno: 12, dname: "HR", dloc: "Mumbai" },
+    Desg: "Analyst",
+    mgr: { name: "Satish", num: 101 },
+    project: [
+      { name: "Project-1", Hrs: 4 },
+      { name: "Project-2", Hrs: 4 }
+    ]
+  },
+  {
+    emono: 202,
+    ename: "Rajan Sharma",
+    sal: 52000,
+    dept: { deptno: 14, dname: "Finance", dloc: "Pune" },
+    Desg: "Clerk",   // will later become AO
+    mgr: { name: "Meena", num: 102 },
+    project: [
+      { name: "Project-1", Hrs: 5 },
+      { name: "Project-3", Hrs: 4 }
+    ]
+  },
+  {
+    emono: 203,
+    ename: "Revati Patil",
+    sal: 48000,
+    dept: { deptno: 11, dname: "IT", dloc: "Bangalore" },
+    Desg: "Developer",
+    mgr: { name: "Amit", num: 103 },
+    project: [
+      { name: "Project-2", Hrs: 6 },
+      { name: "Project-4", Hrs: 3 }
+    ]
+  },
+  {
+    emono: 204,
+    ename: "Atharva Joshi",
+    sal: 25000,
+    dept: { deptno: 13, dname: "Admin", dloc: "Delhi" },
+    Desg: "HR Executive",
+    mgr: { name: "Deepali", num: 201 },
+    project: [
+      { name: "Project-3", Hrs: 4 },
+      { name: "Project-1", Hrs: 7 }
+    ]
+  },
+  {
+    emono: 205,
+    ename: "Sanjay Kulkarni",
+    sal: 55000,
+    dept: { deptno: 15, dname: "Operations", dloc: "Chennai" },
+    Desg: "Team Lead",
+    mgr: { name: "Rajan", num: 202 },
+    project: [
+      { name: "Project-Alpha", Hrs: 10 },
+      { name: "Project-Beta", Hrs: 6 }
+    ]
+  },
+  {
+    emono: 206,
+    ename: "Pranjal Deshmukh",
+    sal: 35000,
+    dept: { deptno: 16, dname: "Sales", dloc: "Hyderabad" },
+    Desg: "Clerk",   // will become AO
+    mgr: { name: "Revati", num: 203 },
+    project: [
+      { name: "Project-2", Hrs: 4 },
+      { name: "Project-3", Hrs: 2 }
+    ]
+  },
+  {
+    emono: 207,
+    ename: "Pooja Ramesh",
+    sal: 9000,
+    dept: { deptno: 17, dname: "Purchase", dloc: "Nagpur" },
+    Desg: "Support",
+    mgr: { name: "Satish", num: 101 },
+    project: [
+      { name: "Project-1", Hrs: 2 },
+      { name: "Project-2", Hrs: 5 }
+    ]
+  },
+  {
+    emono: 208,
+    ename: "Deepak Shetty",
+    sal: 33000,
+    dept: { deptno: 18, dname: "Purchase", dloc: "Pune" },
+    Desg: "Programmer",
+    mgr: { name: "Meena", num: 102 },
+    project: [
+      { name: "Project-1", Hrs: 6 },
+      { name: "Project-4", Hrs: 4 }
+    ]
+  }
+]);
+
+
+
+
+
